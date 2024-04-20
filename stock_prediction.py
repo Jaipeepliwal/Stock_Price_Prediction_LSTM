@@ -6,6 +6,11 @@ from sklearn.preprocessing import MinMaxScaler
 from keras.models import load_model
 import pandas as pd
 
+st.write("""
+# Stock Price Predictor Using LSTM:
+Stock values is very valuable but extremely hard to predict correctly for any human being on their own. This project seeks to solve the problem of Stock Prices Prediction by utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural Network algorithm, to predict future stock values.\n
+""")
+
 # Load the pre-trained model
 model = load_model('D:\\Stock-Prediction_Analysis-main\\keras_stocks_model.keras')
 
@@ -50,7 +55,7 @@ def predict_stock_prices(data, model):
 
 # Streamlit App
 def main():
-    st.title('Stock Price Prediction')
+    #st.title('Taken from YFINANCE')
 
     # Sidebar for user input
     st.sidebar.header('Settings')
@@ -82,7 +87,7 @@ def main():
         # Plot predicted prices
         fig, ax = plt.subplots()
         ax.plot(predicted_close_prices[-30:], label='Predicted Close Prices')
-        ax.axhline(y=predicted_open_price, color='red', linestyle='--', label='Predicted Next Month Open Price')
+        ax.axhline(y=predicted_open_price, color='red', linestyle='--', label='Predicted Next Month Open Price: {0}'.format(round(float(*predicted_open_price[len(predicted_open_price)-1]),2)))
         ax.set_xlabel('Days')
         ax.set_ylabel('Price')
         ax.set_title('Predicted Stock Prices')
