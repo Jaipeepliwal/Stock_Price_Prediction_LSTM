@@ -4,4 +4,4 @@ streamlit
 yfinance
 matplotlib
 keras
-sklearn.preprocessing
+scikit-learn
