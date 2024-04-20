@@ -12,7 +12,7 @@ Stock values is very valuable but extremely hard to predict correctly for any hu
 """)
 
 # Load the pre-trained model
-model = load_model('D:\\Stock-Prediction_Analysis-main\\keras_stocks_model.keras')
+model = load_model('keras_stocks_model.keras')
 
 # Function to make predictions
 def predict_stock_prices(data, model):
