@@ -28,27 +28,27 @@ The project includes a Streamlit web application for stock price prediction, pow
 
 1. Clone the repository:
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/yourusername/stock-price-prediction.git
-    \`\`\`
+    ```
 
 2. Navigate to the project directory:
 
-    \`\`\`bash
+    ```bash
     cd stock-price-prediction
-    \`\`\`
+    ```
 
 3. Install the required dependencies:
 
-    \`\`\`bash
+    ```bash
     pip install -r requirements.txt
-    \`\`\`
+    ```
 
 4. Run the Streamlit app:
 
-    \`\`\`bash
+    ```bash
     streamlit run stock_prediction.py
-    \`\`\`
+    ```
 
 5. Open your browser and navigate to `http://localhost:8501` to use the application.
 
