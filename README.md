@@ -52,6 +52,10 @@ The project includes a Streamlit web application for stock price prediction, pow
 
 5. Open your browser and navigate to `http://localhost:8501` to use the application.
 
+6. Alternatively, you can access the deployed web application at the following link:
+
+    [Stock Price Prediction Web App](https://stockpricepredictionlstm.streamlit.app/)
+
 ## Technologies Used
 
 - **pandas**: For data manipulation and analysis.
@@ -67,17 +71,3 @@ The project includes a Streamlit web application for stock price prediction, pow
 - Expand support for multiple stock indices.
 - Add more sophisticated models, including other neural network architectures.
 - Incorporate external financial indicators for improved prediction accuracy.
-  
-## License
-
-This project is licensed under the MIT License.
-"""
-
-# Writing to README.md file
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md file has been created.")
-
-
-https://stockpricepredictionlstm.streamlit.app/
