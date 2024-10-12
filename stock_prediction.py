@@ -9,9 +9,7 @@ import pandas as pd
 st.write("""
 # Stock Price Predictor Using LSTM:
 Stock values is very valuable but extremely hard to predict correctly for any human being on their own. This project seeks to solve the problem of Stock Prices Prediction by utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural Network algorithm, to predict future stock values.\n
-""")
 
-st.write("""
 # You can find the ticker symbol of any public company by visiting [Yahoo Finance](https://finance.yahoo.com/)
 """)
 
