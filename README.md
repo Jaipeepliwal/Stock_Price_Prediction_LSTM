@@ -63,10 +63,6 @@ The application downloads up to 10 years of daily stock data for any Yahoo Finan
 
 5. Open your browser and navigate to `http://localhost:8501` to use the application.
 
-6. Alternatively, you can access the deployed web application at the following link:
-
-    [Stock Price Prediction Web App](https://stockpricepredictionlstm.streamlit.app/)
-
 ## Technologies Used
 
 | Library | Purpose |
